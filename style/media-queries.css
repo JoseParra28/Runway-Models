@@ -1,0 +1,80 @@
+/* -------------- */
+/*   MAIN PAGE    */
+/* -------------- */
+@media screen and (max-width:950px){
+
+
+    .nav-links li{
+        display: none;
+    }
+    
+    .logo {
+        font-size: 1em;
+    }
+   .drop {
+    display: block;
+   }
+   .title h1 {
+    font-size: 3rem;
+   }
+   .footer-div {
+    display: block ;
+    width: 100%;
+   }
+   .box {
+    width: 100%;
+    background-color: #EA0000;
+   } 
+   .box p {
+    padding: 0.4rem;
+   }
+   .location ul {
+    padding: 0rem;
+    }
+    .location li {
+        padding: 0.3rem;
+    }
+   .line {
+    display: none;
+   }
+    
+}
+
+
+@media screen and (min-width:950px){
+    #show-menu {
+        display: none;
+    }
+} 
+/* -------------- */
+/*     ABOUT      */
+/* -------------- */
+@media screen and (max-width:950px){
+    .intro h2 {
+        font-size: 2rem;
+    }
+    .intro p {
+        font-size: 1.3rem;
+    }
+    #container {
+        height: 60px;
+    }
+    .sponson-item img {
+        height: 60px;
+    }
+}
+
+/* -------------- */
+/*    TALENT      */
+/* -------------- */
+@media screen and (max-width:950px){
+
+
+    #talent-sect {
+        height: 250VH;
+    }
+    
+}
+
+
+
